@@ -14,7 +14,7 @@ green = (0, 200, 0)
 bright_red = (255, 0, 0)
 bright_green =(0, 255, 0)
 
-colorlist = [black, red, green, bright_green, bright_red]
+colorlist = [black, green, red, bright_red, bright_green]
 
 # block_color = (53, 115, 255)
 block_color = random.choice(colorlist)
@@ -26,7 +26,6 @@ pygame.display.set_caption('A Bit Racey')
 clock = pygame.time.Clock()
 
 carImg = pygame.image.load('C:\\Users\\tomjm\\PycharmProjects\\PyGame\\racecar.png')
-
 
 def things_dodged(count):
     font = pygame.font.SysFont(None, 25)
